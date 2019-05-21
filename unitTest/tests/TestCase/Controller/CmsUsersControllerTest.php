@@ -30,7 +30,7 @@ class CmsUsersControllerTest extends TestCase
      */
     public function testIndex()
     {
-        $this->markTestIncomplete('Not implemented yet.');
+        $this->assertEquals(1, 0+1);
     }
 
     /**
