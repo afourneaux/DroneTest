@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                bat 'ls'
+                bat 'dir'
                 bat './unittest/vendor/bin/phpunit'
             }
         }
