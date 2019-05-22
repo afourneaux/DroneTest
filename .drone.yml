@@ -2,6 +2,11 @@ kind: pipeline
 name: default
 
 steps:
+- name: debuginfo
+  image: composer
+  commands:
+  - php -i
+  
 - name: install
   image: composer
   commands:
