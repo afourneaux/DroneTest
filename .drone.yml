@@ -6,6 +6,8 @@ steps:
   image: composer
   commands:
   - php -i
+  - ls
+  - ls ../
   
 - name: install
   image: composer
